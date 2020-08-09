@@ -19,9 +19,9 @@ def position_taken?(board,index)
 end
 
 def position_taken?(board,index)
-  if board.include?("X"||"O")
+  if index.include?("X"||"O")
     true
-  elsif board.include?(" "||""||nil)
+  elsif index.include?(" "||""||nil)
     false
   end
 end
